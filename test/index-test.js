@@ -44,7 +44,6 @@ describe('Arrays', function() {
 );
       function appendKitten () {
         appendKitten('Broom') === ['Milo', 'Otis', 'Garfield', 'Broom'];
-       'appendKitten'()toEqual['Milo', 'Otis', 'Garfield', 'Broom']
       }
       
        
