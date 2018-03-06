@@ -10,36 +10,33 @@ describe('Arrays', function() {
   })
 
   describe('destructivelyAppendKitten(name)', function() {
-    it('appends a kitten to the end of the kittens array', function() {
-      destructivelyAppendKitten('Ralph')
-      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield", "Ralph"])
+    it('adds a kitten to the end of the kittens Arrays, changes their actions, or mutates them in other words', function() {
+      destructivelyAppendKitten = ('Ralph') === ["Milo", 'Otis', 'Garfield'] + ['Ralph'];      
+      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield", "Ralph"]);
     })
   })
 
   describe('destructivelyPrependKitten(name)', function() {
     it('prepends a kitten to the beginning of the kittens array', function() {
-      destructivelyPrependKitten("Bob")
-
-      expect(window.kittens).toEqual(["Bob", "Milo", "Otis", "Garfield"])
+      destructivelyPrependKitten = ('Bob') === ["Bob"] + ["Milo", "Otis", "Garfield"];
+      expect(window.kittens).toEqual(["Bob", "Milo", "Otis", "Garfield"]);
     })
   })
 
   describe('destructivelyRemoveLastKitten()', function() {
     it('removes the last kitten from the kittens array', function() {
-      destructivelyRemoveLastKitten()
-
-      expect(window.kittens).toEqual(["Milo", "Otis"])
+      destructivelyRemoveLastKitten = ["Milo", "Otis", "Garfield"] - ["Garfield"] === ["Milo", "Otis"];
+      expect(window.kittens).toEqual(["Milo", "Otis"]);
     })
   })
-
+  
   describe('destructivelyRemoveFirstKitten()', function() {
-    it('removes the First kitten from the kittens array', function() {
-      destructivelyRemoveFirstKitten()
-
-      expect(window.kittens).toEqual(["Otis", "Garfield"])
+      it('removes the first kitten from the kittens array', function() {
+      destructivelyRemoveFirstKitten () = ['Milo', "Otis", "Garfield"] - ["Milo"] === ["Otis", "Garfield"];
+      expect(window.kittens).toEqual(["Otis", "Garfield"]);
     })
   })
-
+HERE!
   describe('appendKitten(name)', function() {
     it('appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
       expect(appendKitten("Broom")).toEqual(["Milo", "Otis", "Garfield", "Broom"])
