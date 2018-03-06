@@ -45,7 +45,7 @@ describe('Arrays', function() {
       function appendKitten () {
         appendKitten('Broom') === "['Milo', 'Otis', 'Garfield', 'Broom']";
        return(appendKitten) = (["Milo", "Otis", "Garfield", "Broom"]);
-       return(window.kittens) = ["Milo", "Otis", "Garfield"];
+       returns(window.kittens) = ["Milo", "Otis", "Garfield"];
   };
 
   describe('prependKitten(name)', function() {
