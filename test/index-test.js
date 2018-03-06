@@ -32,11 +32,11 @@ describe('Arrays', function() {
   
   describe('destructivelyRemoveFirstKitten()', function() {
       it('removes the first kitten from the kittens array', function() {
-      destructivelyRemoveFirstKitten () = ['Milo', "Otis", "Garfield"] - ["Milo"] === ["Otis", "Garfield"];
+      destructivelyRemoveFirstKitten = ['Milo', "Otis", "Garfield"] - ["Milo"] === ["Otis", "Garfield"];
       expect(window.kittens).toEqual(["Otis", "Garfield"]);
-    })
-  })
-HERE!
+      });
+  });
+  
   describe('appendKitten(name)', function() {
     it('appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
       expect(appendKitten("Broom")).toEqual(["Milo", "Otis", "Garfield", "Broom"])
