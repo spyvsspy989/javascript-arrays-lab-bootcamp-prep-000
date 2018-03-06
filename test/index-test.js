@@ -46,7 +46,7 @@ describe('Arrays', function() {
   })
 
       function() {
-        'appendKitten' = 'Broom' === "['Milo', 'Otis', 'Garfield', 'Broom']";
+        appendKitten('Broom') === "['Milo', 'Otis', 'Garfield', 'Broom']";
        return(appendKitten).toEqual(["Milo", "Otis", "Garfield"])}
   })
 
