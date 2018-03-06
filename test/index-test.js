@@ -44,7 +44,7 @@ describe('Arrays', function() {
 );
       function appendKitten () {
         appendKitten('Broom') === "['Milo', 'Otis', 'Garfield', 'Broom']";
-       expect(appendKitten)toEqua(["Milo", "Otis", "Garfield", "Broom"]);
+       expect"(appendKitten)"toEqua(["Milo", "Otis", "Garfield", "Broom"]);
   };
 
   describe('prependKitten(name)', function() {
